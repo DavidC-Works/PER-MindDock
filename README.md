@@ -1,0 +1,2 @@
+# MindDock
+ MindDock is an open-source smart productivity system designed to run 24/7 in your personal workspace. It turns an old laptop or embedded system into a goal-focused display hub that syncs with Google Calendar, shows your daily/weekly goals, and reacts to task completion with rich visual feedback. MindDock is modular, interactive, and built for expansion — supporting sensors, local data, and UI-controlled routines.
