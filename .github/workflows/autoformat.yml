@@ -1,0 +1,49 @@
+# ---------------------------------------------------------
+# GitHub Action: Autoformat C and Python code
+# ---------------------------------------------------------
+# This workflow automatically formats:
+# - C/C++ files in /embedded using clang-format
+# - Python files in /application using black
+# It commits and pushes the changes back to the branch.
+# ---------------------------------------------------------
+
+name: Autoformat
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  format-c:
+    name: Format C/C++ Code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install clang-format
+        run: sudo apt-get install -y clang-format
+
+      - name: Run clang-format check
+        run: |
+          find embedded/ -regex '.*\.\(c\|h\)' -exec clang-format --dry-run --Werror {} \;
+
+  format-python:
+    name: Format Python Code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install black
+        run: pip install black
+
+      - name: Run black check
+        run: black --check application/
