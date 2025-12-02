@@ -1,45 +1,42 @@
-# 🧠 MindDock
+MindDock
 
-**MindDock** is an open-source smart productivity system that transforms an old laptop or embedded computer into a powerful, always-on personal dashboard.  
-It syncs with your **Google Calendar**, displays your **daily and weekly goals**, and offers an interactive web interface to track progress and celebrate wins.
+A smart, always-on productivity dashboard built from recycled hardware.
 
-Built for creators, students, and professionals, MindDock brings focus, structure, and real-time accountability to your physical space — like having mission control for your life.
+MindDock is an open-source productivity system that transforms an old laptop or embedded computer into a persistent personal dashboard. It synchronizes with your Google Calendar, displays daily and weekly goals, and provides an interactive web interface for input and progress tracking. The system is designed to bring clarity, structure, and real-time accountability into your physical workspace.
 
----
+Overview
 
-## 🔧 Features
+MindDock provides a centralized control and monitoring interface for personal productivity. It is intended to run continuously on repurposed hardware and act as a visual anchor for planning, scheduling, and task execution.
 
-- 📅 **Live Google Calendar Sync**  
-  View your current calendar events and time blocks in real time.
+Features
+Live Google Calendar Sync
 
-- ✅ **Interactive Goal Tracking**  
-  Create daily and weekly goals using a built-in web interface. Check them off and get instant visual feedback. View your progress in daily, weekly, or monthly summaries.
+Displays scheduled events and time blocks in real time.
 
-- 🧠 **Motivational Feedback**  
-  Celebratory effects (like confetti bursts) provide visual motivation for completing tasks.
+Interactive Goal Tracking
 
-- 💻 **Web-Based Task Input**  
-  Add or view tasks from any phone or computer on your network — no need to touch the device directly.
+A built-in web interface allows users to create, update, and complete daily and weekly goals. Summaries are available for daily, weekly, and monthly performance.
 
-- 🌡️ **Sensor Support (Optional)**  
-  Supports DS18B20 temperature sensors and modular extensions for future smart-home integrations. Planned features include energy monitoring, Bluetooth/Wi-Fi smart scale tracking, sleep data from Garmin wearables, and more.
+Motivational Feedback
 
-- ♻️ **Runs on Recycled Hardware**  
-  Optimized to run on old laptop motherboards or low-cost systems like the Raspberry Pi. Designed with flexibility to work on nearly any repurposed computer.
+Visual feedback is triggered when tasks are completed to reinforce productive habits.
 
----
+Web-Based Task Input
 
-## 📸 Example Use Cases
+Tasks and goals can be added or updated from any device on the local network.
 
-- Behind-monitor dashboard showing your current task and calendar
-- Wall-mounted productivity hub for your home or office
-- Personal status screen that adapts in real time to your goals and schedule
+Optional Sensor Support
 
----
+Supports DS18B20 temperature sensors and is designed to accommodate additional modules such as energy monitoring, smart scale data, and wearable sleep metrics.
 
-## 🚀 Getting Started
+Optimized for Recycled Hardware
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/MindDock.git
-   cd MindDock
+Designed to run efficiently on repurposed laptops, small form factor boards, and various embedded systems.
+
+Example Use Cases
+
+Behind-monitor dashboard displaying upcoming events and tasks
+
+Wall-mounted productivity hub for home or office
+
+Real-time adaptive status display for daily plannin
